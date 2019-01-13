@@ -16,13 +16,13 @@ $(document).ready(function () {
             ]
         },
         {
-            name: 'Masranga',
+            name: 'Masranga Tv',
             sources: [
                 {src: 'http://103.85.196.10:8080/hls/one.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
-            name: 'Gazi Tv 2',
+            name: 'Masranga Tv 2',
             sources: [
                 {src: 'http://boss.bdtv.live:8080/hls/2.m3u8', type: 'application/x-mpegURL'},
             ]
