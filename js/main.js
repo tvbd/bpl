@@ -3,40 +3,40 @@ $(document).ready(function () {
 
     player.playlist([
         {
-            name: 'Channel 1',
+            name: 'Dsports',
             autoplay: true,
             sources: [
                 {src: 'http://172.28.28.112/live/antbd1001/index.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
-            name: 'Channel 2',
+            name: 'Gazi TV',
             sources: [
-                {src: 'http://172.28.28.112/live/antbd1002/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://172.28.28.112/live/antbd1006/index.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
-            name: 'Channel 3',
+            name: 'Masranga',
             sources: [
-                {src: 'http://172.28.28.112/live/antbd1003/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://103.85.196.10:8080/hls/one.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
-            name: 'Channel 4',
+            name: 'Gazi Tv 2',
             sources: [
-                {src: 'http://172.28.28.112/live/antbd1004/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://boss.bdtv.live:8080/hls/2.m3u8', type: 'application/x-mpegURL'},
             ]
 		},
 		{
-            name: 'Channel 5',
+            name: 'Masranga 2',
             sources: [
-                {src: 'http://172.28.28.112/live/antbd1005/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://boss.bdtv.live:8080/hls/3.m3u8', type: 'application/x-mpegURL'},
             ]
         },
 		{
-            name: 'Channel 6',
+            name: 'sony six',
             sources: [
-                {src: 'http://172.28.28.112/live/antbd1006/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://172.28.28.112/live/antbd1002/index.m3u8', type: 'application/x-mpegURL'},
             ]
         }]);
 
