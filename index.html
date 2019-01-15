@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BPL Live 2019 TV HD |Exclusive HD Channels Tv </title>
+    <meta content='Bangladesh' name='geo.country'/>
+    <meta content='Live Tv HD,Sports Channel,Free Online Live Tv,IPL Live,Free TV,Football tv,Psl,t20 live,worldcup live, BDix Tv,Sony six, Soxy HD.' name='keywords'/>   
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="pattern pattern--hidden"></div>
+
+<div class="container">
+
+    <div class="player-container">
+        <video id="video" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay data-setup='{"fluid": true}'></video>
+        <div class="vjs-playlist vjs-playlist-horizontal"></div>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+    var player = videojs('video');
+
+    player.playlist([
+        {
+            name: 'Channel 1',
+            autoplay: true,
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1001/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        },
+        {
+            name: 'Channel 2',
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1002/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        },
+        {
+            name: 'Channel 3',
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1003/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        },
+        {
+            name: 'Channel 4',
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1004/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+		},
+		{
+            name: 'Channel 5',
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1005/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        },
+		{
+            name: 'Channel 6',
+            sources: [
+                {src: 'http://172.28.28.112/live/antbd1006/index.m3u8', type: 'application/x-mpegURL'},
+            ]
+        }]);
+
+// Initialize the playlist-ui plugin with no option (i.e. the defaults).
+    player.playlistUi();
+});
+    
+    </script>
+    
+    
+   
+<script src="app.js"></script>
+    
